@@ -1,0 +1,40 @@
+.wrapper{
+    background-color: #222426;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    border-style: solid;
+    border-color: white;
+    padding: 4rem;
+    background-color: #5e9400;
+}
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 50%;
+  }
+.centered{
+    max-width: 50%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+a:link {
+	color: #a8a095;
+}
+ a:visited {
+	 color: #b9b1a6;
+}
+ a:hover {
+	 color: white;
+}
+ a:active {
+	 color: #FFFD00;
+}
