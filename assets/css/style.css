@@ -1,4 +1,4 @@
-.wrapper{
+html{
     background-color: #222426;
 }
 .links {
@@ -22,9 +22,10 @@
     max-width: 50%;
     margin: auto;
 }
-h1{
+h1, h2{
     text-align: center;
-    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    color: #5e9400
 }
 a:link {
 	color: #a8a095;
@@ -37,4 +38,17 @@ a:link {
 }
  a:active {
 	 color: #FFFD00;
+}
+.column{
+    text-align: center;
+}
+p{
+    max-width: 90%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: white; 
+}
+.dual{
+    display:flex;
+    justify-content: space-evenly;
+
 }
