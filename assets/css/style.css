@@ -1,7 +1,10 @@
 html{
     background-color: #222426;
-    max-width: 75%;
-    margin:auto;
+
+}
+.wrapper{
+    max-width: 70%;
+    margin: auto;
 }
 #paragraph{
     grid-area: paragraph; 
@@ -12,9 +15,9 @@ html{
     flex-direction: row;
     max-width: 80%;
     margin: auto;
-    align-items: center;
-    margin-bottom: 6rem;
-
+    align-items:center;
+    justify-content: space-between;
+    height: 40fr;
   }
 h1{
     font-size: 50px;
@@ -22,10 +25,10 @@ h1{
     color: #5e9400
 }
 .column {
-    flex: 100%;
     flex-direction: row;
     text-align: center;
-    max-height: 30rem;
+    height:auto;
+    max-width: 30%;
 
   }
 .centered{
@@ -58,14 +61,11 @@ a:link {
 	 color: #FFFD00;
 }
 p{
-    max-width: 80%;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     color: white; 
 }
 img {
-    max-width: 100%;
-    margin:auto;
-    height: auto;
+    max-width: fit-content;
 }
 .desc{
     font-size: 12;
@@ -74,7 +74,12 @@ img {
     text-align: center;
 }
 .sticky {
-    position: fixed;
+    background-color: #5e9400;
+    font-size: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
     top: 0;
     width: 100%;
 }
