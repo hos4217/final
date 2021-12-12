@@ -7,17 +7,15 @@
 		<link rel="stylesheet" href="assets/css/style.css">
         <title>NVIDIA: Power Unavailable</title> 
     </head>
-    
+    <h1>NVIDIA: Power Unavailable</h1>
+    <div class="sticky">
+        <a href="#sticky">Title</a>
+        <a href="#rtx-on">RTX</a>
+        <a href = "buisness.html">Kidney-Sell</a>
+        <a href="mental.html">Scalper-Portal</a>
+        <a href="#form">Customer Form</a>
+    </div> 
     <div class = "wrapper">
-
-        <h1>NVIDIA: Power Unavailable</h1>
-        <div class="sticky">
-            <a href="#links" class = "locationhere">Title</a>
-            <a href="#rtx-on">RTX</a>
-            <a href = "buisness.html">Kidney-Sell</a>
-            <a href="mental.html">Scalper-Portal</a>
-        </div> 
-
     <div id="paragraph">
     <div class="row">
         <div class="column">
@@ -51,19 +49,19 @@
             at 3x MSRP. Sucker!
         </p>
         <h1>Customer Feedback Form</h1>
-        <form oninput="x.value=parseInt(a.value)*parseInt(b.value)">
+        <form oninput="x.value=parseInt(a.value)*parseInt(b.value)" id="form">
             <h2>Please enter your full name.</h2>
-            <p1 class ="centered">
+            <p>
                 <label>
                     <input type = "text" name =  "requiredtext" required = "required" />
                 </label>
-            </p1>
-            <h2>Were 30 series RTX Graphics Cards available in your area?</h2>
+            </p>
+            <h2>Were 30 series RTX craphics cards available in your area?</h2>
             <p>
                 <label><input type ="radio" name ="choice" value = "1" /> Yes</label>
                 <label><input type ="radio" name ="choice" value = "2" /> No</label>
             </p>
-            <h2>Were 30 series RTX Graphics Cards available in your area?</h2>
+            <h2>Which graphics card, if any, did you purchase?</h2>
             <p>
                 <label><input type ="radio" name ="choice" value = "1" /> RTX 3060</label>
                 <label><input type ="radio" name ="choice" value = "2" /> RTX 3060ti</label>
@@ -72,8 +70,20 @@
                 <label><input type ="radio" name ="choice" value = "5" /> RTX 3080</label>
                 <label><input type ="radio" name ="choice" value = "6" /> RTX 3080ti</label>
                 <label><input type ="radio" name ="choice" value = "7" /> RTX 3090</label>
+                <label><input type ="radio" name ="choice" value = "7" /> None (I'm normal)</label>
             </p>
+            <h2>Did you recieve the product at or within 150$ of MSRP?</h2>
+            <p>
+                <label><input type ="radio" name ="choice" value = "1" /> Yo</label>
+                <label><input type ="radio" name ="choice" value = "2" /> No</label>
+            </p>
+            <h2>Did you encounter heating issues, driver glitches, or incompatibility? If so, describe the error.</h2> 
+            <p><label>Text Input<br />
+                <textarea name="errors" rows="10" cols="50"></textarea>
+                </label>
+            </p>  
         </form>
+        
     </div>
 </div>
 </html>
