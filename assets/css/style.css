@@ -58,21 +58,24 @@ h3{
     font-family: 'Times New Roman', Times, serif;
     color: black;
 }
-a:link, a:visited, a:hover, a:active {
-    font-size: 36px;
-}
 a:link {
 	color: black;
+    font-size: 36px;
 }
  a:visited {
 	 color: #3B3B3BC3;
+     font-size: 36px;
 }
  a:hover {
 	 color: white;
+     font-size: 45px;
+     transition: font-size 0.3s;
 }
  a:active {
 	 color: #FFFD00;
+     font-size: 36px;
 }
+
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     color: white;
@@ -111,8 +114,17 @@ form{
 @media screen and (max-width: 700px) {
     .row{display:flex; flex-direction: column;}
     .column{max-width: 90%; margin-bottom: 4rem;}
-    #scalper{display:flex; flex-direction:column; justify-content: space-evenly; margin: auto; height: auto;}
-    .form-fields input[type="textarea"] {
-    
+    a:link{
+        font-size: 18px;
+    }
+    a:visited{
+        font-size: 18px;
+    }
+    a:active{
+        font-size: 30px;
+        transition: font-size 0.3s;
+    }
+    a:hover{
+        font-size: 18px;
     }
   }
