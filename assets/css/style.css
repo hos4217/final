@@ -110,8 +110,5 @@ form{
 @media screen and (max-width: 700px) {
     .row{display:flex; flex-direction: column;}
     .column{max-width: 90%; margin-bottom: 4rem;}
-    #scalper{display:flex; flex-direction:column; justify-content: space-evenly; margin: auto; height: auto;}
-    .form-fields input[type="textarea"] {
-    
-    }
+    #scalper{display:flex; flex-direction:column; justify-content: space-between; margin: auto; height: auto;}
   }
