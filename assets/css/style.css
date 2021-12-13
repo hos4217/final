@@ -49,6 +49,7 @@ h2, h3, .centered, .row, p, h1, .column {
 }
 h2{
     margin-top: 5rem;
+    font-size: 28px;
     font-family: 'Times New Roman', Times, serif;
     color: #5e9400;
 }
@@ -61,10 +62,10 @@ a:link, a:visited, a:hover, a:active {
     font-size: 36px;
 }
 a:link {
-	color: #a8a095;
+	color: black;
 }
  a:visited {
-	 color: #b9b1a6;
+	 color: #3B3B3BC3;
 }
  a:hover {
 	 color: white;
@@ -76,6 +77,7 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     color: white;
     margin-bottom: 3rem;
+    font-size: 16px;
 }
 .desc{
     font-size: 12px;
