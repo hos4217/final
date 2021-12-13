@@ -3,7 +3,6 @@ html{
 
 }
 .wrapper{
-    max-width: 70%;
     margin: auto;
 }
 #paragraph{
@@ -14,6 +13,8 @@ html{
     flex-direction: row;
     justify-content: space-around;
     margin-top: 5rem;
+    max-width: 65%;
+    margin:auto;
 }
 .row {
     display: flex;
@@ -38,17 +39,24 @@ h1{
 
   }
 .centered{
-    max-width: 60%;
+    max-width: 70%;
     margin:auto;
     
 }
-h2, .centered, .row, p, h1, .column {
+h2, h3, .centered, .row, p, h1, .column {
     text-align: center;
+    max-width: 70%;
+    margin: auto;
 }
 h2{
     margin-top: 5rem;
     font-family: 'Times New Roman', Times, serif;
     color: #5e9400;
+}
+h3{
+    margin-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
 }
 a:link, a:visited, a:hover, a:active {
     font-size: 16;
@@ -79,18 +87,31 @@ p{
 .sticky {
     display:flex;
     position: sticky;
-    background-color: #5e9400;
     font-size: 28px;
     align-items: center;
     justify-content: space-evenly;
     top: 0;
     max-width: 100%;
+    background-color: #5e9400;
+    border:black;
+    border-style:solid;
 }
 form{
     margin-bottom:0%;
 }
+#customer-feedback{
+    background-color: #5e9400;
+    border:black;
+    border-style:solid;
+    border-radius: 20px;
+    max-width: 50%;
+    margin:auto;
+}
 @media screen and (max-width: 700px) {
     .row{display:flex; flex-direction: column;}
     .column{max-width: 90%; margin-bottom: 4rem;}
-    #scalper{display:flex; flex-direction:column; justify-content: space-evenly; max-width: 100%; margin: auto; height: auto;}
+    #scalper{display:flex; flex-direction:column; justify-content: space-evenly; margin: auto; height: auto;}
+    .form-fields input[type="textarea"] {
+    
+    }
   }
