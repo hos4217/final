@@ -23,7 +23,6 @@ html{
     margin: auto;
     align-items:center;
     justify-content: space-between;
-    height: 40fr;
   }
 h1{
     font-size: 50px;
@@ -59,7 +58,7 @@ h3{
     color: black;
 }
 a:link, a:visited, a:hover, a:active {
-    font-size: 16;
+    font-size: 36px;
 }
 a:link {
 	color: #a8a095;
@@ -79,7 +78,7 @@ p{
     margin-bottom: 3rem;
 }
 .desc{
-    font-size: 12;
+    font-size: 12px;
     color:gray;
     font-weight: lighter;
     text-align: center;
@@ -110,5 +109,8 @@ form{
 @media screen and (max-width: 700px) {
     .row{display:flex; flex-direction: column;}
     .column{max-width: 90%; margin-bottom: 4rem;}
-    #scalper{display:flex; flex-direction:column; justify-content: space-between; margin: auto; height: auto;}
+    #scalper{display:flex; flex-direction:column; justify-content: space-evenly; margin: auto; height: auto;}
+    .form-fields input[type="textarea"] {
+    
+    }
   }
