@@ -3,12 +3,17 @@ html{
 
 }
 .wrapper{
-    max-width: 100%;
+    max-width: 70%;
     margin: auto;
 }
 #paragraph{
     grid-area: paragraph; 
-
+}
+#scalper{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5rem;
 }
 .row {
     display: flex;
@@ -25,23 +30,23 @@ h1{
     color: #5e9400
 }
 .column {
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    height:auto;
+    height:40rem;
     max-width: 30%;
 
   }
 .centered{
-    display:flex;
     max-width: 60%;
-    margin: auto;
-    flex-direction: column;
+    margin:auto;
     
 }
 h2, .centered, .row, p, h1, .column {
     text-align: center;
 }
 h2{
+    margin-top: 5rem;
     font-family: 'Times New Roman', Times, serif;
     color: #5e9400;
 }
@@ -62,10 +67,8 @@ a:link {
 }
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    color: white; 
-}
-img {
-    max-width: fit-content;
+    color: white;
+    margin-bottom: 3rem;
 }
 .desc{
     font-size: 12;
@@ -83,8 +86,11 @@ img {
     top: 0;
     max-width: 100%;
 }
+form{
+    margin-bottom:0%;
+}
 @media screen and (max-width: 700px) {
-    .grid {flex-direction: column;}
-    header {flex-direction: column; align-items: center;}
-    #logo{max-width: 60%; margin:auto;}
+    .row{display:flex; flex-direction: column;}
+    .column{max-width: 90%; margin-bottom: 4rem;}
+    #scalper{display:flex; flex-direction:column; justify-content: space-evenly; max-width: 100%; margin: auto; height: auto;}
   }

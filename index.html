@@ -7,28 +7,29 @@
 		<link rel="stylesheet" href="assets/css/style.css">
         <title>NVIDIA: Power Unavailable</title> 
     </head>
-    <h1>NVIDIA: Power Unavailable</h1>
+    <h1 id="title">NVIDIA: Power Unavailable</h1>
     <div class="sticky">
-        <a href="#sticky">Title</a>
+        <a href="#title">Title</a>
         <a href="#rtx-on">RTX</a>
+        <a href="#scalper-portal">Scalper-Portal</a>
         <a href = "buisness.html">Kidney-Sell</a>
-        <a href="mental.html">Scalper-Portal</a>
         <a href="#form">Customer Form</a>
     </div> 
     <div class = "wrapper">
-    <div id="paragraph">
-    <div class="row">
-        <div class="column">
+        <br />
+        <div id="paragraph">
+        <div class="row">
+        <div class="column, centered">
             <img src="assets/media/rtx-on.png"></img>
-            <h2 style="text-align: center;">Use RTX Raytracing to Cripple your FPS</h2>
-            <p style="text-align: center;">
+            <h2>Use RTX Raytracing to Cripple your FPS</h2>
+            <p>
                 Using our new patented RTX technology, gamers can cripple their fps in ways even less noticable than before! What was once a revolutionary technology
                 to be rendered by filmmakers and in simulations can now be done locally on your machine. Beware though, there's a reason Disney measures their movie rendering
                 in seconds per frame instead of frames per second. Order a compatibile NVIDIA card today (stock unavailable until 2023) to experience frame drops more immersively
                 than ever.</p>
         </div>
-        <div class="column">
-            <img src="assets/media/kidney-sell.png" class="centered"></img>
+        <div class="column, centered">
+            <img src="assets/media/kidney-sell.png"></img>
             <h2>Purchase Via NVIDIA Kidney Sell™</h2>
             <p>
                 Never before has PC gaming been so affordable* with NVIDIA kidney sell! Integrated into our checkout process is the option to trade one or more of your kidneys 
@@ -36,18 +37,41 @@
                 fully pay for one of our newest cards without even taking out your wallet! What's more, we offer additional rates for sales of 4 or more kidneys, ever increasing
                 the ability for gamers to get ahold of the newest hardware. Act now, demand is limited and we cannot hold on to stock forever.</p>
       </div> 
-    </div>
-    </div>
+        </div>
+        </div>
+        <div class="centered">
         <h2>Power up your game with RTX enabled realtime raytracing</h1>
-        <img src=assets/media/rtxhead.jpg alt="Shiny man demonstrates rtx graphics" class="centered">
+        <img src=assets/media/rtxhead.jpg alt="Shiny man demonstrates rtx graphics" style="max-width: 60%; margin:auto;">
         <div id="rtx-on"></div>
-        <p style="max-width: 60%; margin:auto;"><br />Raytracing as a technology is not new, but the implications of it being doable in realtime during interactive media such as gaming are immense. What
+        <p><br />Raytracing as a technology is not new, but the implications of it being doable in realtime during interactive media such as gaming are immense. What
             was previously only capable of being rendered over days using cutting edge professional equipment can now be done using unavailable consumer equipment that
             might as well not exist due to a lack of stock. That's not to mention how it tanks gaming performence for what is arguably a minor change in graphical fidelity
             compared to standard rasterization techniques. It's a good thing DLSS is available, because otherwise you'd need to actually turn down your settings from ultra
             to get that beloved 144hz at 2k resolution. Who needs to compromise when you can camp in front of a Microcenter for days to get a product that was released a year ago
             at 3x MSRP. Sucker!
         </p>
+        <h2 id="scalper-portal">Scalper Portal</h2>
+        <video width="400" controls>
+            <source src="assets/media/video-launch.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+          </video>
+        <p>Depending on your location, our scalper connection service will put you in contact with one of our sponsored vendors
+            who will sell you our products at prices ranging from 2x to 5x MSRP. We value our customers, so if any of these sellers fail to meet your expectations or
+            violate our code of conduct, please click <a href="https://www.letmegooglethat.com/?q=help+i+bought+a+graphics+card+at+3x+MSRPfrom+a+scalper">here</a> 
+            to file a complaint where it will be promptly ignored.
+        </p>
+        <div id="scalper">
+            <a href="https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2334524.m570.l1313&_nkw=nvidia+geforce+rtx+3080&_sacat=0&LH_TitleDesc=0&Brand=GIGABYTE&rt=nc&_odkw=nvidia+geforce+rtx+30+series&_osacat=0&_dcat=27386">
+                <img src="assets/media/ebay.png" />
+            </a>
+            <a href="https://www.amazon.com/s?k=geforce+rtx+3080&ref=nb_sb_noss_1">
+                <img src="assets/media/amazon.png" />
+            </a>
+            <a href="https://www.newegg.com/p/pl?d=rtx+3080&N=100007709&isdeptsrh=1">
+             <img src="assets/media/newegg.png" />
+        </a>
+        </div>
+        </div>
         <h1>Customer Feedback Form</h1>
         <form oninput="x.value=parseInt(a.value)*parseInt(b.value)" id="form">
             <h2>Please enter your full name.</h2>
@@ -83,7 +107,7 @@
                 </label>
             </p>  
         </form>
-        
+        </p>
     </div>
 </div>
 </html>
